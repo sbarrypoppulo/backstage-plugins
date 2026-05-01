@@ -1,6 +1,6 @@
-import { CacheClient } from '@backstage/backend-common';
+import { CacheService } from '@backstage/backend-plugin-api';
 
-export class MockCacheClient implements CacheClient {
+export class MockCacheClient implements CacheService {
   private readonly itemRegistry: { [key: string]: any };
 
   constructor() {

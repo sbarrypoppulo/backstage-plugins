@@ -51,6 +51,8 @@
   },
   "devDependencies": {
     "@backstage/cli": "^0.35.1",
+    "@backstage/backend-defaults": "^0.14.0",
+    "@backstage/backend-test-utils": "^1.10.2",
     "@types/marked": "^5.0.0",
     "@types/supertest": "^6.0.0",
     "supertest": "^7.0.0"
